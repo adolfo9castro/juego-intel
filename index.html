@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>Reef Studios Facebook App game</title>
+	<meta charset="utf-8">
+	<script src='js/jquery-1.9.1.min.js'></script>
+	<script src='js/libs/jqueryui-1.10.0/jquery-ui.min.js'></script>
+	<script src='js/libs/modernizr-2.6.2/modernizr.min.js'></script>
+	<script language="javascript" type="text/javascript" src="js/animations.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link type='text/css' rel='stylesheet' href='stylesheet/style.css' />
+	<link rel="stylesheet" href="js/jquery.onebyone.css">
+	<script src="js/jquery.onebyone.min.js"></script> 
+	<link href='http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,800,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>	
+</head>
+<body>
+	<div id="first_screen" class="box0">
+		<div class="header"></div>
+		<div class="logo_grid"></div>
+		<div class="text_first">
+			<p>WELCOME TO THE GRID 2 GIVEAWAY</p>
+			<span>Come back daily and compete for a copy of GRID 2</span>			
+		</div>
+		<span class="anti_span">Start your engine by selecting “Today’s Race”</span>
+		<div id="enter_btn" class="enter">
+			ENTER
+		</div>		
+		<div id="footer_logo_2"></div>
+	</div>
+
+	<div id="intro" class="box1" style="display:none">
+		<div class="header"></div>
+		<div class="your_email">
+			<p>
+				Please enter your email address to be notified if you become a winner
+			</p>
+			<div class="email">
+				<input type="text" name="Email_Ad" />
+				<span name="next1" id="btnfield1"  style="cursor:pointer;width:200px;height:40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			</div>
+		</div>
+		<div class="footer"></div>
+	</div>
+	<div id="race_now" style="display:none">
+		<div class="box2">
+			<div class="header"></div>
+			<div id="obo_slider2">
+				<div class="oneByOne_item"> 
+					<div class="countdown_next_race">
+						<span>Next Race</span><br />
+						<img src="img/countdown_next_race.png" /><br />
+						<span style="font-size: 16px"><strong>3</strong>DAYS</span>
+					</div>
+					<div class="share">
+						<span>Race Day 1</span><br />
+						<span>SHARE</span>
+					</div>
+					<div id="race_now_btn" class="race_now">
+						RACE NOW
+					</div>
+					<p class="tex_race">You only have once  chance to play today</p>
+					<div class="link_right">
+						<a href="#">ENTER SWEEPSTAKES</a>
+						<a href="#">BUY GRID2</a>
+						<a class="a_blue" href="#">PURCHASE ULTRABOOKS</a>
+					</div>
+					<div class="footer">
+						<a href="#"><img src="img/grid2.png" /></a><a href="#"><img src="img/intel_logo.png" /></a>
+						<p>
+							Past<br />
+							Races
+						</p>
+						<div class="img_line">
+							<span class="span_races_1">CALIFORNIA</span><img class="races_1" src="img/races_1.jpg" /><span class="span_races_2">CALIFORNIA</span><img class="races_2" src="img/races_2.jpg" /><span class="span_races_3">CALIFORNIA</span><img class="races_3" src="img/races_3.jpg" /><span class="span_races_4">CALIFORNIA</span><img class="races_4" src="img/races_4.jpg" />
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="practice" style="display:none">
+		<div class="box3">
+			<div class="header"></div>
+			<div class="countdown_next_race">
+				<span>Next Race</span><br />
+				<img src="img/countdown_next_race.png" /><br />
+				<span style="font-size: 16px"><strong>3</strong>DAYS</span>
+			</div>
+			<div class="share">
+				<span>Race Day 1</span><br />
+				<span>SHARE</span>
+			</div>
+			<div id="obo_slider3">
+				<div class="oneByOne_item">
+					<div id="practice_btn" class="practice">
+						PRACTICE NOW
+					</div>
+					<p class="tex_practice">"You have already won a race"</p>
+					<p class="tex_practice"><br /><br /><span style="font-size: 14px; margin-top: 30px">You will be able to play and win, but not get a prize,</span><br />
+<strong>THANKS FOR PARTICIPATING</strong></p>
+					
+					<div class="link_right">
+						<a href="#">ENTER SWEEPSTAKES</a>
+						<a href="#">BUY GRID2</a>
+						<a class="a_blue" href="#">PURCHASE ULTRABOOKS</a>
+					</div>
+					<div class="footer">
+						<a href="#"><img src="img/grid2.png" /></a><a href="#"><img src="img/intel_logo.png" /></a>
+						<p>
+							Past<br />
+							Races
+						</p>
+						<div class="img_line">
+							<span class="span_races_1">CALIFORNIA</span><img id="btn_race_1" class="races_1" src="img/races_1.jpg" /><span class="span_races_2">CALIFORNIA</span><img class="races_2" src="img/races_2.jpg" /><span class="span_races_3">CALIFORNIA</span><img class="races_3" src="img/races_3.jpg" /><span class="span_races_4">CALIFORNIA</span><img class="races_4" src="img/races_4.jpg" />
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="race_1" style="display:none">
+		<div class="box4">
+			<div class="header"></div>
+			<div class="lets_race">
+				<div class="quit_game_bg">
+					<p class="parrafo">
+						<span class="espan">This is a practice race.</span><br />
+						You will not be participating in the contest with this race
+					</p>					
+					<div id="lets_race" class="quit_game">
+						OK, LET’S RACE
+					</div>					
+				</div>
+			</div>
+			<div class="pause">
+				<div class="quit_game_bg">	
+					<p>If you quit the game, you will be <strong>deducted one of your chances</strong>
+						to win today's race
+					</p>
+					<div class="quit_game_2">
+						QUIT GAME
+					</div>
+					<div id="close" class="resume_game">
+						RESUME GAME
+					</div>
+					
+				</div>
+			</div>
+			<div class="map_clock" style="display:none">
+				<div class="map">
+							
+				</div>
+				<div class="clock">
+					00:12.30
+				</div>
+			</div>
+			<div class="countdown_next_race" style="display:none">
+				<span>Next Race</span><br />
+				<img src="img/countdown_next_race.png" /><br />
+				<span style="font-size: 16px"><strong>3</strong>DAYS</span>
+			</div>
+			<div class="share" style="display:none">
+				<span>"Race date: 2/3/13"</span><br />
+				<span>SHARE</span>
+			</div>
+			<div class="countdown">
+				1
+			</div>			
+			<div id="footer_logo" style="display:none">
+				<a href="#"><img src="img/grid2.png" /></a><a href="#"><img src="img/intel_logo.png" /></a>
+			</div>
+				
+		</div>
+	</div>
+	
+	
+	<div id="score" class="box5" style="display:none">
+		<div class="header"></div>
+			<div class="have_win">
+				YOU HAVE WON!
+			</div>
+			<p class="text_score">THANKS FOR PLAYING; YOUR TIME HAS BEEN SUBMITTED FOR JUDGING</p>
+			<div class="winner">
+				<img src="img/winner.jpg">
+				<div class="time">
+					TIME
+				</div>
+				<div class="show_time">
+					00:12.30
+				</div>
+			</div>
+			<p class="text_score_2">100 prizes are awarded every day to the top 100 race times*</p>
+			<p class="text_score_3">If you don’t win, come back daily for another chance to compete</p>
+			
+			<div class="share_score">
+				SHARE
+			</div>
+			
+			<div class="main_menu">
+				MAIN MENU
+			</div>
+			
+			<p class="text_score_4">*One prize per person over the course of the campaign</p>
+			<div class="high_scores">
+				<div class="title">
+					HIGH SCORES
+				</div>
+				<div style=" margin-top: 113px;">
+					<div class="high_scores_right">
+						<img src="img/tom.jpg">
+						<div class="name">
+							TOM
+						</div>
+						<div class="show_time">
+							00:10.30
+						</div>
+					</div>
+					<div class="high_scores_right">
+						<img src="img/sara.jpg">
+						<div class="name">
+							SARAH
+						</div>
+						<div class="show_time">
+							00:10.30
+						</div>
+					</div>
+					<div class="high_scores_right">
+						<img src="img/steve.jpg">
+						<div class="name">
+							STEVE
+						</div>
+						<div class="show_time">
+							00:10.30
+						</div>
+					</div>
+					<div class="high_scores_right">
+						<img src="img/mark.jpg">
+						<div class="name">
+							MARK
+						</div>
+						<div class="show_time">
+							00:10.30
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		<div id="footer_logo_2"><a href="#"><img src="img/grid2.png" /></a><a href="#"><img src="img/intel_logo.png" /></a></div>
+	</div>
+	
+</body>
+</html>
