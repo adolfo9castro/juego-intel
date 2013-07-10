@@ -68,7 +68,11 @@ p{
 	width: 805px;
 	height: 650px;
 	display: block;
-	margin: 0 auto;
+	margin: -650px -255px 0 auto
+}
+
+#race_1{
+	z-index: 999
 }
 
 .box5{

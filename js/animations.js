@@ -14,7 +14,50 @@ $('document').ready(function() {
 	    $("#practice").fadeIn('slow');	  
     });
 	
-
+	
+	
+	$("#btn_race_1").click(function() {    
+		$("#practice").animate({
+			//marginRight: "805px",
+			marginRight: "+=805px",
+            opacity: "toggle"
+		});
+		 /*$("#practice").css({
+			"background-color": "yellow",
+			"font-weight": "bolder"
+		});*/
+		
+		$("#race_1").animate({
+			marginRight: "+=805px",
+			//width: "toggle",
+            opacity: "toggle"
+		});
+		setTimeout(function(){
+			$(".box4").css("margin", "0 -255px 0 auto" );
+		},400);
+		
+		$(".footer").animate({
+			top: '100',
+			marginTop: "+=100px",
+		});
+		
+		
+		$(".footer").slideDown("slow");
+		$("#lets_race").click(function() {    
+			//$(".footer").delay(1000).hide();
+			$("#footer_logo").delay(600).fadeIn('slow');		
+			$(".share").delay(600).fadeIn('slow');
+			$(".header p").delay(600).fadeIn('slow');
+			$(".countdown_next_race").delay(600).fadeIn('slow');
+			$(".map_clock").delay(600).fadeIn('slow');
+			$(".lets_race").delay(300).fadeOut('slow');
+			$(".countdown").delay(3000).fadeOut('slow');
+		});
+		
+    });
+	
+	
+	/*
 	$("#btn_race_1").click(function() {    
 		$("#practice").animate({
 			left: '100',
@@ -39,7 +82,7 @@ $('document').ready(function() {
 			$(".countdown").delay(3000).fadeOut('slow');
 		});
 		
-    });
+    });*/
 	
 	$(".quit_game_2").click(function() {
 		$("#race_1").fadeOut('fast');		
