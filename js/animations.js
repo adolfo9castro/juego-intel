@@ -21,7 +21,7 @@ $('document').ready(function() {
 			//marginRight: "805px",
 			marginRight: "+=805px",
             opacity: "toggle"
-		});
+		},"slow");
 		 /*$("#practice").css({
 			"background-color": "yellow",
 			"font-weight": "bolder"
@@ -31,10 +31,10 @@ $('document').ready(function() {
 			marginRight: "+=805px",
 			//width: "toggle",
             opacity: "toggle"
-		});
+		},"slow");
 		setTimeout(function(){
 			$(".box4").css("margin", "0 -255px 0 auto" );
-		},400);
+		},600);
 		
 		$(".footer").animate({
 			top: '100',
